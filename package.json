@@ -1,0 +1,17 @@
+{
+  "name": "react-native-parallax-background",
+  "version": "0.1.0",
+  "author": "Danny Qu",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "parallax"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.52.0"
+  }
+}
