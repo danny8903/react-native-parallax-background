@@ -43,7 +43,7 @@ export default class App extends React.Component {
 
 | Prop | Description | Defaul|
 |---|---|---|
-|**`offset`**|index of the children ParallaxBackground component should be showed.|0|
+|**`offset`**|index of the children ParallaxBackground component to be showed.|0|
 
 ```js
 import {HorizontalWrapper, ParallaxBackground} from 'react-native-parallax-background';
@@ -75,6 +75,10 @@ export default class App extends React.Component {
   }
 }
 ```
+
+## References and Credits
+- [f8app](https://github.com/fbsamples/f8app) from Facebook Samples
+- [react-native-parallax-view](https://github.com/lelandrichardson/react-native-parallax-view) by Leland Richardson
 
 ## License
 
