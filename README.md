@@ -26,7 +26,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <ParallaxBackground
           maxHeight={300}
-          uri={'http://cdn.eventfinda.co.nz/uploads/events/transformed/1050208-474117-7.png?v=2'}
+          uri={'http://your_image_url.png'}
           >
           <View>
             <Text> content </Text>  
@@ -56,17 +56,17 @@ export default class App extends React.Component {
         offset={1}>
           <ParallaxBackground
             maxHeight={300}
-            uri={'http://cdn.eventfinda.co.nz/uploads/events/transformed/1050208-474117-7.png?v=2'}>
+            uri={'http://your_image_url.jpg'}>
             <View><Text> Content 1</Text> </View>  
           </ParallaxBackground>
           <ParallaxBackground
             maxHeight={300}
-            uri={'http://cdn.eventfinda.co.nz/uploads/events/transformed/1040425-469847-7.jpg'}>
+            uri={'http://your_image_url.jpg'}>
             <View><Text> Content 2</Text> </View>  
           </ParallaxBackground>
           <ParallaxBackground
             maxHeight={300}
-            uri={'http://cdn.eventfinda.co.nz/uploads/events/transformed/975524-440514-7.jpg'}>
+            uri={'http://your_image_url.jpg'}>
             <View><Text> Content 3</Text> </View>  
           </ParallaxBackground>
         </HorizontalWrapper>
